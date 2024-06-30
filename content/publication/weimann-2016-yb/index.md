@@ -1,0 +1,47 @@
+---
+title: 'From Genomes to Phenotypes: Traitar, the Microbial Trait Analyzer'
+authors:
+- Aaron Weimann
+- Kyra Mooren
+- Jeremy Frank
+- Phillip B Pope
+- Andreas Bremges
+- Alice C McHardy
+date: '2016-11-01'
+publishDate: '2024-06-30T12:48:55.689899Z'
+publication_types:
+- article-journal
+publication: '*mSystems*'
+abstract: The number of sequenced genomes is growing exponentially, profoundly shifting
+  the bottleneck from data generation to genome interpretation. Traits are often used
+  to characterize and distinguish bacteria and are likely a driving factor in microbial
+  community composition, yet little is known about the traits of most microbes. We
+  describe Traitar, the microbial trait analyzer, which is a fully automated software
+  package for deriving phenotypes from a genome sequence. Traitar provides phenotype
+  classifiers to predict 67 traits related to the use of various substrates as carbon
+  and energy sources, oxygen requirement, morphology, antibiotic susceptibility, proteolysis,
+  and enzymatic activities. Furthermore, it suggests protein families associated with
+  the presence of particular phenotypes. Our method uses L1-regularized L2-loss support
+  vector machines for phenotype assignments based on phyletic patterns of protein
+  families and their evolutionary histories across a diverse set of microbial species.
+  We demonstrate reliable phenotype assignment for Traitar to bacterial genomes from
+  572 species of eight phyla, also based on incomplete single-cell genomes and simulated
+  draft genomes. We also showcase its application in metagenomics by verifying and
+  complementing a manual metabolic reconstruction of two novel Clostridiales species
+  based on draft genomes recovered from commercial biogas reactors. Traitar is available
+  at https://github.com/hzi-bifo/traitar. IMPORTANCE Bacteria are ubiquitous in our
+  ecosystem and have a major impact on human health, e.g., by supporting digestion
+  in the human gut. Bacterial communities can also aid in biotechnological processes
+  such as wastewater treatment or decontamination of polluted soils. Diverse bacteria
+  contribute with their unique capabilities to the functioning of such ecosystems,
+  but lab experiments to investigate those capabilities are labor-intensive. Major
+  advances in sequencing techniques open up the opportunity to study bacteria by their
+  genome sequences. For this purpose, we have developed Traitar, software that predicts
+  traits of bacteria on the basis of their genomes. It is applicable to studies with
+  tens or hundreds of bacterial genomes. Traitar may help researchers in microbiology
+  to pinpoint the traits of interest, reducing the amount of wet lab work required.
+tags:
+- ancestral trait reconstruction; genotype-phenotype inference; metagenomics; microbial
+  traits; phenotypes; phyletic patterns; single-cell genomics; support vector machines;my
+  papers;Pseudomonas AMR
+---
